@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ConsoleApplication.Algorithms;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -8,8 +9,6 @@ namespace ConsoleApplication
     {
         static void Main(string[] args)
         {
-
-            
             Console.ReadLine();
         }
     }
