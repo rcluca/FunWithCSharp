@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication.Algorithms
 {
+    // Notes
+    //
+    // Add ability to get Permutations for case-insensitive
+
     public class Permutations
     {
         ICollection<string> _combos;
@@ -33,6 +37,12 @@ namespace ConsoleApplication.Algorithms
 
         public List<string> GetPermutations(string word)
         {
+            if (word == null)
+                throw new NullReferenceException();
+
+            if (word.Length == 0)
+                return new List<string>();
+
             _combos = new List<string>();
             _wordChrs = word.ToCharArray();
             SetDefaultStringRestrictions();
@@ -44,6 +54,12 @@ namespace ConsoleApplication.Algorithms
 
         public List<string> GetPermutations(string word, Dictionary<int, HashSet<char>> restrictions)
         {
+            if (word == null)
+                throw new NullReferenceException();
+
+            if (word.Length == 0)
+                return new List<string>();
+
             _restrictions = restrictions;
 
             return GetPermutations(word);
@@ -69,6 +85,12 @@ namespace ConsoleApplication.Algorithms
 
         public List<string> GetUniquePermutations(string word)
         {
+            if (word == null)
+                throw new NullReferenceException();
+
+            if (word.Length == 0)
+                return new List<string>();
+
             _combos = new HashSet<string>();
             _wordChrs = word.ToCharArray();
             SetDefaultStringRestrictions();
@@ -80,6 +102,12 @@ namespace ConsoleApplication.Algorithms
 
         public List<string> GetUniquePermutations(string word, Dictionary<int, HashSet<char>> restrictions)
         {
+            if (word == null)
+                throw new NullReferenceException();
+
+            if (word.Length == 0)
+                return new List<string>();
+
             _restrictions = restrictions;
 
             return GetPermutations(word);
