@@ -53,6 +53,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algorithms\Permutations.cs" />
     <Compile Include="Algorithms\FollowingInteger.cs" />
     <Compile Include="Algorithms\PrimePalindrome.cs" />
     <Compile Include="Algorithms\RoboLovers.cs" />
