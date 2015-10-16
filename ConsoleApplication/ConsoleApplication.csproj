@@ -59,6 +59,7 @@
     <Compile Include="Algorithms\FollowingInteger.cs" />
     <Compile Include="Algorithms\PrimePalindrome.cs" />
     <Compile Include="Algorithms\RoboLovers.cs" />
+    <Compile Include="Algorithms\StacksImplementedWithArray.cs" />
     <Compile Include="CustomLibrary.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
