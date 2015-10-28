@@ -8,7 +8,8 @@ namespace ConsoleApplication.Algorithms
 {
     // Notes
     //
-    // Add ability to get Permutations for case-insensitive
+    // - Add ability to get Permutations for case-insensitive
+    // - Add speed up for repeated permutations in GetUnique (ie: "AAAA" should return immediately with only "AAAA")
 
     public class Permutations
     {
