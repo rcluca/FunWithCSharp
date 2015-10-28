@@ -53,7 +53,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algorithms\BinaryTrees.cs" />
     <Compile Include="Algorithms\DancesWithWolves.cs" />
+    <Compile Include="Algorithms\HTTP.cs" />
     <Compile Include="Algorithms\MathWithOnlyAddOperator.cs" />
     <Compile Include="Algorithms\Permutations.cs" />
     <Compile Include="Algorithms\FollowingInteger.cs" />
